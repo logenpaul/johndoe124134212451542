@@ -1,0 +1,44 @@
+.download {
+  background-color: var(--ruffle-orange);
+
+  * {
+    color: #3c1518;
+  }
+
+  &[disabled] {
+    background-color: var(--ruffle-blue-7);
+    * {
+      color: var(--mantine-color-white);
+      font-weight: lighter;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.name,
+.nameAsHeader {
+  &:link,
+  &:visited {
+    color: var(--mantine-color-white);
+  }
+}
+
+.name {
+  font-size: var(--mantine-font-size-md);
+}
+
+.nameAsHeader {
+  font-size: var(--mantine-font-size-xl);
+  margin-top: var(--mantine-spacing-lg);
+}
+
+.header {
+  font-weight: normal;
+  font-size: var(--mantine-font-size-md);
+  background-color: var(--ruffle-blue-6);
+  color: white;
+}
+
+.body {
+  background-color: var(--ruffle-blue-9);
+}
